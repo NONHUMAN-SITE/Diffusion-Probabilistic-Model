@@ -1,0 +1,36 @@
+.env
+.venv/
+venv/
+
+.env.*
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+*.log
+*.sqlite3
+
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+dist/
+build/
+*.egg-info/
+
+# Datos generados o de prueba
+data/
+tmp/
+*.bak
+
+# Archivos de Poetry
+poetry.lock
+
+# Archivos de editor/IDE (puedes quitarlos si no los necesitas)
+.vscode/
+.idea/
+
+kaggle.json
