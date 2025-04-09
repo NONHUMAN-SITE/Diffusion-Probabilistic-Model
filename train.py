@@ -16,13 +16,7 @@ def main(cfg):
 
     dataset = DifussionDataset(path=cfg.train.path_dataset)
 
-    dataloader = DataLoader(dataset,
-                            batch_size=cfg.train.batch_size)
-    
-    for batch in dataloader:
-        print(batch.shape)
+    dataloader = DataLoader(dataset,batch_size=cfg.train.batch_size)
     
 if __name__ == '__main__':
     main()
-    
-    
