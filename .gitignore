@@ -1,0 +1,41 @@
+# Entornos virtuales
+.env
+.venv/
+venv/
+
+# Archivos de configuración sensibles
+.env.*
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Archivos de log y bases de datos temporales
+*.log
+*.sqlite3
+
+# Archivos generados por pruebas
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# Archivos de desarrollo y distribución
+dist/
+build/
+*.egg-info/
+
+# Datos generados o de prueba
+data/
+tmp/
+*.bak
+
+# Archivos de Poetry
+poetry.lock
+
+# Archivos de editor/IDE (puedes quitarlos si no los necesitas)
+.vscode/
+.idea/
+outputs
