@@ -1,0 +1,8 @@
+train:
+    epochs: 20
+    batch_size: 128
+    lr: 0.0003
+    beta_init: 0.0001
+    beta_final: 0.02
+    T: 1000
+    path_dataset: "/home/leonardo/NONHUMAN/Diffusion-Probabilistic-Model/data"
